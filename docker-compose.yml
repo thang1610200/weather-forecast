@@ -86,7 +86,3 @@ services: #Khởi tạo service
             - MAIL_FROM_ADDRESS="hello@example.com"
             - MAIL_FROM_NAME="${APP_NAME}"
             - API_KEY_WEATHER="7858617aaeca470ab0085037240304"
-        # ports:
-        #     - "7000:9000"
-        # expose:
-        #     - 9000
