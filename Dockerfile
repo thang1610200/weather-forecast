@@ -33,3 +33,6 @@ RUN composer install --no-dev --optimize-autoloader --no-scripts
 COPY . .
 
 RUN chown -R $uid:$uid /var/www/html
+
+EXPOSE 9000
+CMD ["php-fpm"]
